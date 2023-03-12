@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchItems-page {
+  display: flex;
+  background-color:rgba(147,167,186,255);
+  background-size: cover;
+  height: 100vh;
+
+}
+.search-field {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.search-radio-button {
+  margin-left: 1em;
+}
+
+.item-image {
+  width: 300px;
+  height: 300px;
+  
+}
+.store-table {
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+.item-name {
+  width: 30%;
+}
+
+.store-list-item {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.store-logo-avatar:hover {
+  opacity: 0.5;
+}
+
+.store-logo-avatar {
+  cursor: pointer;
+}
+
+.drawer {
+  display: flex;
+  height: 100%;
+  margin: 8em;
+}
+.pagination {
+  justify-content: center;
+  display: flex;
+}
+

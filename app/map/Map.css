@@ -1,0 +1,52 @@
+  
+  
+  #map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .map-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .info-window {
+    width: 180px;
+  }
+
+  h1.info-window-title {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+  }
+
+  p.info-window-address {
+    word-wrap: break-word;
+    font-family: 'Roboto', Arial;
+    font-size: 13px;
+  }
+
+  p.info-window-text {
+    font-size: 13px;
+  }
+
+  .icon-map {
+    max-width: 17px !important;
+  }
+
+  .store-logo {
+    max-width: 150px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .address-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+

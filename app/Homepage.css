@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-image: url(../../public/shopbag.avif) !important;
-    background-size: 100% 175% !important;
+    background-image: url(../public/shopbag.avif) !important;
+    background-size: 100% 150% !important;
 }
 
 .homepage {
@@ -35,4 +35,5 @@ body {
   font-weight: 500;
   font-size: 1.25rem;
   letter-spacing: 0.0075em;
+
 }

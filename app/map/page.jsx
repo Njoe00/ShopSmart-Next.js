@@ -7,7 +7,7 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 import React, { Fragment, useState } from "react";
-// import useGroceryList from "../listings/useListingsHook";
+import useGroceryList from "../../util/useListingsHook";
 import "./Map.css";
 // import mapPin from "../../images/map_pin_icon.png";
 import { sizeHeight } from "@mui/system";
@@ -59,9 +59,9 @@ export default function Map(props) {
       onLoad={onLoad}
       onUnmount={onUnmount}
     >
-      {groceries.map((store) => {
+      {/* {groceries.map((store) => {
         return <MarkerAndInfo key={store.store_id} store={store} />;
-      })}
+      })} */}
     </GoogleMap>
   );
 }

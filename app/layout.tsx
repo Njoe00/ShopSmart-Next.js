@@ -29,12 +29,13 @@ export default function RootLayout({
         <nav>
           <div className="header">
             <div className="navigation-buttons">
+            <a href='/'>
               <img
                 src={logo.src}
                 alt="logo"
                 className="logo"
-                // onClick={() => navigate("/")}
               />
+            </a>
               <div className="logo-text">
                 ShopSmart{" "}
                 {/* <style>

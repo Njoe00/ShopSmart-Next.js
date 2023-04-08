@@ -22,7 +22,9 @@ function Homepage() {
           onClick={() => navigate("/search-items")}
         >
           <Typography variant="h6" gutterBottom className="start-searching-btn">
-            Start Searching
+            <a href='/search'>
+              Start Searching
+            </a>
             {/* <style>
               @import
               url('https://fonts.googleapis.com/css2?family=Anton&display=swap');

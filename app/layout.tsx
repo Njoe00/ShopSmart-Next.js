@@ -3,6 +3,7 @@
 import "./globals.css";
 import React, { useState } from "react";
 import { hydrate, render } from "react-dom";
+import Link from 'next/link';
 // import Typography from "@mui/material/Typography";
 // import Box from "@mui/material/Box";
 import Button from "@mui/material/Button" ;
@@ -29,13 +30,13 @@ export default function RootLayout({
         <nav>
           <div className="header">
             <div className="navigation-buttons">
-            <a href='/'>
+            <Link href='/'>
               <img
                 src={logo.src}
                 alt="logo"
                 className="logo"
               />
-            </a>
+            </Link>
               <div className="logo-text">
                 ShopSmart{" "}
                 {/* <style>

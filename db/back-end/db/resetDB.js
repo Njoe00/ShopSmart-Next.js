@@ -2,8 +2,8 @@
 // reset your database
 require("dotenv").config();
 const { Client } = require("pg");
-const SCHEMA_PATH = "./db/schema";
-const SEEDS_PATH = "./db/seeds";
+const SCHEMA_PATH = "./schema";
+const SEEDS_PATH = "./seeds";
 
 const fs = require("fs").promises;
 

@@ -28,7 +28,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <nav>
+          <div className='flex flex-row justify-between items-center p-4 bg-rose-300'>
           <div className="header">
+            </div>  
             <div className="navigation-buttons">
             <Link href='/'>
               <img

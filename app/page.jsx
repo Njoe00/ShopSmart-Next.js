@@ -1,5 +1,7 @@
 "use client"
 
+// import "../public/styles.css"
+// import "tailwindcss/tailwind.css"
 import React, { useState } from "react";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -12,7 +14,7 @@ import "./Homepage.css";
 function Homepage() {
   // const navigate = useNavigate();
 
-  return (
+  return ( 
     <div className="homepage">
       <Title />
       <div className="get_started_button">

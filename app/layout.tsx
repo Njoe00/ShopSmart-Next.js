@@ -28,10 +28,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <nav>
-          <div className='flex flex-row justify-between items-center p-4 bg-rose-300'>
-          <div className="header">
-            </div>  
-            <div className="navigation-buttons">
+          <div className='text-red-400'>
+          {/* <div className="header">  */}
+            {/* <div className="navigation-buttons">
             <Link href='/'>
               <img
                 src={logo.src}
@@ -41,10 +40,10 @@ export default function RootLayout({
             </Link>
               <div className="logo-text">
                 ShopSmart{" "}
-                {/* <style>
+                <style>
                   @import
                   url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
-                </style> */}
+                </style>
               </div>
             </div>
             <div className="right-buttons-group">
@@ -52,11 +51,12 @@ export default function RootLayout({
                 className="sign-in-out-button"
                 variant="contained"
                 color="success"
-                // onClick={() => setSignInDrawerOpen(true)}
+                onClick={() => setSignInDrawerOpen(true)}
               >
                 Login
               </Button>
-            </div>
+            </div> */}
+            test
           </div>
         </nav>
         {children}
